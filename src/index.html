@@ -13,7 +13,7 @@
 
   <body>
     <form action="post" onsubmit="onSubmit()">
-      <fieldset>
+      <fieldset class="field__set">
         <legend>Personal information</legend>
         <div class="form-field">
           <label for="surname">Surname:
@@ -49,15 +49,13 @@
             required>
           </label>
         </div>
-        <!-- <div class="form-field"> -->
         <label for="term-of-agreement">I accept the term of the agreement
           <input type="checkbox"
            id="term-of-agreement"
            required>
         </label>
-        <!-- </div> -->
       </fieldset>
-      <fieldset>
+      <fieldset class="field__set">
         <legend>Registration</legend>
         <div class="form-field">
           <label for="email">E-mail:
@@ -67,7 +65,6 @@
             required>
           </label>
         </div>
-        <!-- <div class="form-field"> -->
         <label for="pass">Password:
           <input type="password"
            id="pass"
@@ -75,9 +72,8 @@
            maxlength="32"
            required>
         </label>
-        <!-- </div> -->
       </fieldset>
-      <fieldset>
+      <fieldset class="field__set">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           <label for="cats">Do you love cats?
@@ -114,15 +110,13 @@
             </select>
           </label>
         </div>
-        <!-- <div class="form-field"> -->
         <label for="rate">How do you rate our work?
           <input type="range"
            id="rate"
            name="range">
         </label>
-        <!-- </div> -->
       </fieldset>
-      <fieldset>
+      <fieldset class="field__set">
         <legend>Additional info:</legend>
         <div class="form-field">
           <label for="comments">Comments:
@@ -131,7 +125,6 @@
            ></textarea>
           </label>
         </div>
-        <!-- <div class="form-field"> -->
         <label for="recommend">Would you recommend us?
           <select name="rec"
           id="recommend">
@@ -139,7 +132,6 @@
             <option value="no">No</option>
           </select>
         </label>
-        <!-- </div> -->
       </fieldset>
       <button type="submit" class="form-field">Submit</button>
     </form>
